@@ -4,9 +4,24 @@
 #include "pch.h"
 #include <iostream>
 
+using namespace std;
+
+void Multi99()
+{
+	for (int i = 1; i < 10; i++)
+	{
+		cout << "구구단 " << i << "단" << endl;
+		for (int j = 1; j < 10; j++)
+		{
+			cout << i << " X " << j << " = " << i * j << endl;
+		}
+		cout << endl;
+	}
+}
+
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	Multi99();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
