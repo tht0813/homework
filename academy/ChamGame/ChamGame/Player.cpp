@@ -27,6 +27,7 @@ void Player::GameStart()
 		cout << "걸렸습니다."<<endl;
 		cout<<"게임 재시작 : 3" << endl;
 		cout << "게임 종료 : 4" << endl;
+		
 		pInput = Input();
 		if (pInput == 3)
 		{
