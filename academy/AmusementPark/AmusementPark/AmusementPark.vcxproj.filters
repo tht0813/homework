@@ -13,10 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Human">
+      <UniqueIdentifier>{eaadf6f0-7c63-4907-97bf-32fc1843a715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amuse">
+      <UniqueIdentifier>{05310ad4-a979-4f79-ad37-82d6b086f881}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Amuse.h">
+      <Filter>Amuse</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>Human</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -25,6 +37,12 @@
     </ClCompile>
     <ClCompile Include="AmusementPark.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Amuse.cpp">
+      <Filter>Amuse</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>Human</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

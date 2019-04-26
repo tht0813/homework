@@ -3,10 +3,20 @@
 
 #include "pch.h"
 #include <iostream>
+#include "Amuse.h"
+#include "Human.h"
 
 int main()
 {
     std::cout << "Amusement Park\n"; 
+	Amuse RollerCoaster(10, 20, 55);
+	Amuse Biking(25, 10, 60);
+	Human me(6);
+
+	RollerCoaster.Info();
+
+	RollerCoaster.WaitingTime(me);
+	Biking.WaitingTime(me);
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
