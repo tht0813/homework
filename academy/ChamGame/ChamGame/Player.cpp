@@ -45,21 +45,11 @@ void Player::GameStart()
 		if (count == 0) 
 		{ 
 			cout << "승리!! 다시 시작하시겠습니까? ( 예 : 3  아니오 : 4 )" << endl; 
-			return; 
+			pInput = Input();
+			if (pInput == 3) { count = 3; GameStart(); }
+			else { return; }
 		}
 
-		cout << "게임 종료 : 4" << endl;
-		cout << "게임 속행 : 5" << endl;
-		pInput = Input();
-		
-		if (pInput == 5)
-		{
-			GameStart();
-		}
-		else if (pInput == 4) { return; }
-		else 
-		{ 
-			cout << "다시 입력하세요." << endl;
-		}
+		GameStart();
 	}
 }
